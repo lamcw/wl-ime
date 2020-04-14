@@ -62,3 +62,4 @@ subprojects/*
 !subprojects/munit.wrap
 
 compile_commands.json
+.clangd
