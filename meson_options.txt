@@ -1,1 +1,1 @@
-option('man', type : 'boolean', description : 'Build man page. scdoc required.')
+option('man', type : 'feature', value: 'auto', description : 'Build man page. scdoc required.')

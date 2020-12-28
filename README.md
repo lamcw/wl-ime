@@ -1,8 +1,9 @@
 # wlime
-Native Wayland Input Method. Work in progress.
+Native **W**ay**l**and **i**nput **m**ethod **e**ditor. Work in progress.
 
 ## Installation
 
+## Usage
 
 ## Compile from source
 Install the following dependencies:
@@ -14,3 +15,6 @@ Run the following command in shell:
 $ meson build
 $ ninja -C build
 ```
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

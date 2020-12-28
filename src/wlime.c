@@ -4,6 +4,8 @@
 
 #include <wayland-client.h>
 
+#include <wlime.h>
+
 static const char usage[] = "Usage: %s [options...]\n"
 			    "\n"
 			    "  -h              Show help message and quit.\n";
@@ -34,6 +36,7 @@ int main(int argc, char **argv)
 		return EXIT_FAILURE;
 	}
 
+	/* TODO: use wlime struct */
 	struct wl_display *display = wl_display_connect(NULL);
 	if (!display) {
 		fprintf(stderr, "Failed to connect to Wayland display.\n");
